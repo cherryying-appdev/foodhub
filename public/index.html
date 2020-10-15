@@ -12,6 +12,9 @@
 	<!-- Connect Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
+  <!-- Connect to our own CSS -->
+  <link rel="stylesheet" href="/my_styles.css">
+
 	<!-- Connect Bootstrap JavaScript and its dependencies -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -19,10 +22,13 @@
 	<!-- Make it responsive to small screens -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Connect to Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
 		<a class="navbar-brand" href="https://www.google.com">
 			<span class="h2 font-weight-bold"> FOODHUB </span>
 		</a>
@@ -44,7 +50,7 @@
 				</li>
 			</ul>
 	</nav>
-	<section class="who-delivers text-black py-6">
+	<section class="who-delivers text-white py-6">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6 offset-md-3">
@@ -74,7 +80,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section class="how-to-foodhub py-6">
 		<div class="row">
 			<div class="col-12 text-center">
@@ -117,66 +122,94 @@
 			</div>
 		</div>
 	</section>
+	<section class="sound-bites bg-light py-6">
+		<div class="container-fluid">
+			<div class="row mb-4">
+				<div class="col-12 text-center">
+					<h2>
+						Sound bites
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<div class="media">
+						<img src="/assets/images/user-1.jpg" class="rounded-circle user-image mr-3">
+						<div class="media-body">
+							<p>
+								@Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make
+								that part of my life
+								easy. Thanks!
+							</p>
+							<h4>
+								@xtinacousins
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="media">
+						<img src="/assets/images/user-2.jpg" class="rounded-circle user-image mr-3">
+						<div class="media-body">
+							<p>
+								Made my first @Foodhub order today. So great to be able to order food and not have to
+								talk to anyone.
+							</p>
+							<h4>
+								@udezekene
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="media">
+						<img src="/assets/images/user-3.jpg" class="rounded-circle user-image mr-3">
+						<div class="media-body">
+							<p>
+								Shout out to Foodhub for making my life so so easy.
+							</p>
+							<h4>
+								@adellecharles
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="media">
+						<img src="/assets/images/user-4.jpg" class="rounded-circle user-image mr-3">
+						<div class="media-body">
+							<p>
+								Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our
+								office in a jiffy.
+								FOOD!
+							</p>
+							<h4>
+								@vista
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="download-apps text-white py-6">
+		<div class="container-fluid">
+			<div class="row mb-2 text-center">
+				<div class="col-md-6 offset-md-3">
+					<h2>
+						Download apps
+					</h2>
+					<p class="lead">
+						Millions of users and we want to befriend each one. 900+ cities and more than 35,000
+						restaurants.
+					</p>
+					<img src="/assets/images/app-store-badge.png" class="store-badge margin-below-bottom-xs">
+					<img src="/assets/images/google-play-badge.png" class="store-badge margin-below-bottom-xs">
+				</div>
+				</div>
+			</div>
+	</section>
 
-
-
-	<h2>
-		Sound bites
-	</h2>
-
-	<img src="/assets/images/user-1.jpg">
-
-	<p>
-		@Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life
-		easy. Thanks!
-	</p>
-
-	<h4>
-		@xtinacousins
-	</h4>
-
-	<img src="/assets/images/user-2.jpg">
-
-	<p>
-		Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
-	</p>
-
-	<h4>
-		@udezekene
-	</h4>
-
-	<img src="/assets/images/user-3.jpg">
-
-	<p>
-		Shout out to Foodhub for making my life so so easy.
-	</p>
-
-	<h4>
-		@adellecharles
-	</h4>
-
-	<img src="/assets/images/user-4.jpg">
-
-	<p>
-		Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy.
-		FOOD!
-	</p>
-
-	<h4>
-		@vista
-	</h4>
-
-	<h2>
-		Download apps
-	</h2>
-
-	<p>
-		Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
-	</p>
-
-	<img src="/assets/images/app-store-badge.png">
-
-	<img src="/assets/images/google-play-badge.png">
 
 	<h2>Why order with Foodhub?</h2>
 
