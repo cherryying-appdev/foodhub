@@ -12,8 +12,8 @@
 	<!-- Connect Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-  <!-- Connect to our own CSS -->
-  <link rel="stylesheet" href="/my_styles.css">
+	<!-- Connect to our own CSS -->
+	<link rel="stylesheet" href="/my_styles.css">
 
 	<!-- Connect Bootstrap JavaScript and its dependencies -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
@@ -22,9 +22,9 @@
 	<!-- Make it responsive to small screens -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Connect to Google Web Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet" type="text/css">
+	<!-- Connect to Google Web Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -209,87 +209,113 @@
 				</div>
 			</div>
 	</section>
-
-
-	<h2>Why order with Foodhub?</h2>
-
-	<img src="/assets/images/gem.jpg">
-	<h4>Discover</h4>
-	<p>
-		We'll help you find hidden gems in your neighborhood.
-	</p>
-
-	<img src="/assets/images/like.jpg">
-	<h4>Better</h4>
-	<p>
-		The more you use Foodhub, the better we are at making recommendations just for you.
-	</p>
-
-	<img src="/assets/images/bite.jpg">
-	<h4>Food</h4>
-	<p>
-		Enjoy each bite all the more knowing your order supports local businesses.
-	</p>
-
-	<h2>About Foodhub</h2>
-
-	<p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you
-		the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want
-		to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly.
-		When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we
-		also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and
-		makes sure you get exactly what you want.</p>
-
-	<h4>Sign up for special offers</h4>
-
-	<form>
-		<div>
-			<input type="email" placeholder="Email">
-    </div>
-
-			<div>
-				<input type="number" placeholder="Zip code">
-    </div>
-
-				<button>Send me treats</button>
-	</form>
-
-	<h4>Get to know us</h4>
-
-	<ul>
-		<li>About Grubhub</li>
-		<li>Our apps</li>
-		<li>Our blog</li>
-		<li>Careers</li>
-		<li>Investor relations</li>
-		<li>News</li>
-	</ul>
-
-
-	<h4>Help</h4>
-
-	<ul>
-		<li>FAQ</li>
-		<li>Contact us</li>
-	</ul>
-
-	<h4>Connect with us</h4>
-
-	<ul>
-		<li>Facebook</li>
-		<li>Twitter</li>
-		<li>Instagram</li>
-		<li>YouTube</li>
-	</ul>
-
-
-	<h4>Partner with us</h4>
-
-	<ul>
-		<li>For restaurants</li>
-		<li>For drivers</li>
-		<li>For corporate accounts</li>
-	</ul>
+	<section class="why-order bg-light py-6">
+		<div class="container-fluid">
+			<div class="row mb-4">
+				<div class="col-12 text-center">
+					<h2 class="mb-2">Why order with Foodhub?</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="/assets/images/gem.jpg" class="rounded-circle spotlight-image">
+					<h4 class="h6 font-weight-bold">Discover</h4>
+					<p>
+						We'll help you find hidden gems in your neighborhood.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/assets/images/like.jpg" class="rounded-circle spotlight-image">
+					<h4 class="h6 font-weight-bold">Better</h4>
+					<p>
+						The more you use Foodhub, the better we are at making recommendations just for you.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/assets/images/bite.jpg" class="rounded-circle spotlight-image">
+					<h4 class="h6 font-weight-bold">Food</h4>
+					<p>
+						Enjoy each bite all the more knowing your order supports local businesses.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about-foodhub py-6">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<h2>About Foodhub</h2>
+				</div>
+				<div class="col-md-6">
+					<p>Foodhub helps you find and order food from wherever you are. How it works: you type in an
+						address, we tell you
+						the restaurants that deliver to that locale as well as showing you droves of pickup restaurants
+						near you. Want
+						to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results
+						accordingly.
+						When you find what you're looking for, you can place your order online or by phone, free of
+						charge. Oh, and we
+						also give you access to reviews, coupons, special deals and a 24/7 customer care team that
+						tracks each order and
+						makes sure you get exactly what you want.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="bg-primary text-white py-6">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 offset-md-1 col-8 offset-2 mb-5">
+					<h4 class="h6 font-weight-bold">Sign up for special offers</h4>
+					<form>
+						<div class="form-group">
+							<label for="email" class="sr-only">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+							<div class="form-group">
+								<label for="zip_code" class="sr-only">Zip Code</label>
+								<input type="number" class="form-control" id="zip_code" placeholder="Zip code">
+            </div>
+								<button class="btn btn-success btn-block">Send me treats</button>
+					</form>
+				</div>
+				<div class="col-md-2 offset-md-1 col-8 offset-2 mb-5">
+					<h4 class="h6 font-weight-bold">Get to know us</h4>
+					<ul class="list-unstyled">
+						<li>About Grubhub</li>
+						<li>Our apps</li>
+						<li>Our blog</li>
+						<li>Careers</li>
+						<li>Investor relations</li>
+						<li>News</li>
+					</ul>
+				</div>
+				<div class="col-md-2 offset-md-1 col-8 offset-2 mb-5">
+					<h4 class="h6 font-weight-bold">Help</h4>
+					<ul class="list-unstyled">
+						<li>FAQ</li>
+						<li>Contact us</li>
+					</ul>
+					<h4 class="h6 font-weight-bold">Connect with us</h4>
+					<ul class="list-unstyled">
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>YouTube</li>
+					</ul>
+				</div>
+				<div class="col-md-2 offset-md-1 col-8 offset-2 mb-5">
+					<h4 class="h6 font-weight-bold">Partner with us</h4>
+					<ul class="list-unstyled">
+						<li>For restaurants</li>
+						<li>For drivers</li>
+						<li>For corporate accounts</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>
